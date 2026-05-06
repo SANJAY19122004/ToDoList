@@ -1,4 +1,3 @@
-
 *,
 *::before,
 *::after {
@@ -11,16 +10,14 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background: #f0f4f8;
   min-height: 100vh;
-  color: #333;
+  color: #050110;
 }
-
 
 .app-wrapper {
   max-width: 560px;
   margin: 40px auto;
   padding: 0 16px;
 }
-
 
 .app-header {
   background: #4f46e5;
@@ -52,14 +49,12 @@ body {
   opacity: 0.8;
 }
 
-
 .app-main {
   background: white;
   border-radius: 0 0 16px 16px;
   padding: 24px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
-
 
 .add-todo-section {
   display: flex;
@@ -94,7 +89,7 @@ body {
 }
 
 .btn-add:hover {
-  background: #4338ca;
+  background: #2e1fcc;
 }
 
 /* ===== Stats ===== */
@@ -107,14 +102,12 @@ body {
   padding: 0 4px;
 }
 
-
 .todo-list {
   list-style: none;
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-
 
 .todo-item {
   display: flex;
@@ -154,7 +147,6 @@ body {
   color: #aaa;
 }
 
-
 .edit-input {
   flex: 1;
   padding: 6px 10px;
@@ -163,7 +155,6 @@ body {
   font-size: 0.95rem;
   outline: none;
 }
-
 
 .btn-edit,
 .btn-delete {
@@ -183,7 +174,6 @@ body {
 .btn-delete:hover {
   background: #fee2e2;
 }
-
 
 .empty-state {
   text-align: center;

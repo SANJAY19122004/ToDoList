@@ -1,16 +1,52 @@
-# React + Vite
+repository link:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+to do list app
+this is a simple and clean built application with react and vite.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+the features in this app are:
+1.we can add new tasks
+2.we can delete tasks
+we can mark tasks as completed
+4.we can edit existing tasks
+5.added task completion state
 
-## Expanding the ESLint configuration
+tool sused:
+1.react (functional components,hooks)
+2.vite
+3.plain css
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+how to run:
+Make sure Node.js is installed on your system.
+
+1. Clone the repo and open the folder:
+   bash:
+   git clone https://github.com/SANJAY19122004/ToDoList.git
+   cd ToDoList
+   2. Install packages using:
+      bash:
+      npm install
+
+   3. Start the app:
+      bash:
+      npm run dev
+
+   4. then Open `http://localhost:5173` in the browser
+
+src/
+|--components/
+| |---Header.jsx
+| |---ToDoList.jsx
+| |---ToDoItem.jsx
+|--App.jsx
+|--App.css
+|--main.jsx
+
+How to use:
+
+1. Type in the input box and hit ""Enter"" or click \*""Add"" to create a task
+2. Check the checkbox to mark a task complete
+3. Click ✏️ to edit, 💾 to save
+4. Click 🗑️ to delete

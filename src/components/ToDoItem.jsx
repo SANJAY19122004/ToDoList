@@ -51,14 +51,14 @@ const ToDoItem = ({ todo, onDelete, onToggle, onEdit }) => {
           onClick={handleEdit}
           title={isEditing ? "Save" : "Edit"}
         >
-          {isEditing ? "SAVE 💾" : " EDIT✏️"}
+          {isEditing ? "SAVE " : " EDIT "}
         </button>
         <button
           className="btn-delete"
           onClick={() => onDelete(todo.id)}
           title="Delete"
         >
-          DELETE 🗑️
+          DELETE !
         </button>
       </div>
     </li>
